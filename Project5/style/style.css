@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*heaer*/
+
+header {
+    background-color: #EEEFF1;
+}
+
+.design {
+    padding-bottom: 145px;
+}
+
+.top {
+    padding-top: 57px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:not(:last-child) {
+    margin-right: 40px;
+}
+
+.a1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #34547A;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.a2 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.design-descr {
+    margin-top: 162px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-design-descr {
+    width: 30%;
+    margin: auto;
+}
+
+.description {
+    width: 48%;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.design-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 60px;
+    margin-bottom: 85px;
+
+}
+
+button {
+    padding: 25px 41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background-color: #34547A;
+    border: none;
+}
+
+/*about me*/
+
+.about-me {
+
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.about-me-sec {
+    width: 28%;
+    margin: auto;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+
+
+}
+
+.text-about-me {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+/* <!-- 40+ --> */
+
+.fourty {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #34547A;
+}
+
+.fourty-low {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step1 {
+    display: flex;
+}
+
+.step2 {
+    margin-left: 20px;
+}
+
+.counter {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.proj {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+/*wrapper*/
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+/*мои навыки*/
+.skills {
+    padding: 100px 0;
+    /*первій - верх, низ, второй -право, лево*/
+
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.skills-info {
+    width: 40%;
+
+}
+
+.skills-img {
+    display: block;
+    width: 50%;
+
+}
+
+.skills-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.skill-name {
+    color: #727272;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.skill-scale-uoter {
+    height: 4px;
+    background-color: #C4C4C4;
+    ;
+
+}
+
+.skill-scale-inner {
+    width: 70%;
+    height: 100%;
+    background-color: #34547A;
+
+}
+
+.skill-scale:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+/* Как я работаю */
+
+.process {
+    padding: 100px 0;
+    background-color: #EEEFF1;
+
+}
+
+.process_title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.process_desct {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto 60px;
+    color: #727272;
+
+}
+
+.process_video {
+    width: 100%;
+    aspect-ratio: 2/1;
+
+}
+
+/* <!-- Проeкты --> */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.projects_item {
+    width: 25%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    opacity: 1;
+}
+
+.stiker {
+    background-image: url(../images/sriker.png);
+
+}
+
+.laptop {
+    background-image: url(../images/laptop.png);
+
+}
+
+.projects_item_inner {
+    height: 100%;
+    /* на всю высоту внешнего блока */
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+    /* прозрачность блока. 0 - прозрачный(невидимый) 1-непрозрачный. 0.5 прозрачный наполовину */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.projects_item_inner:hover {
+    opacity: 1;
+}
+
+/* <!-- Microsoft --> */
+
+.microsoft {
+    padding: 100px 0;
+
+}
+
+.micro {
+    width: 57%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.micro-img {
+    width: 23%;
+}
+
+/* <!-- Форма --> */
+
+.form {
+    background-color: #EEEFF1;
+    padding: 100px 0;
+}
+
+.form_wrapper {
+    width: 30%;
+    margin: auto;
+}
+
+.form_titel {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.form_decrtiption {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    text-align: center;
+}
+
+.form_control {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[name="name"],
+input[name="email"] {
+    width: 45%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 20px 45px;
+    background-color: #34547A;
+    border: none;
+    color: white;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Footer*/
+
+.lower-border {
+    background-color: #34547A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lower-bord-sect {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.rights {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.vk {
+    margin: 13px 0;
+}
+
+.vk-img:not(:first-child) {
+    margin-left: 22px;
+}
