@@ -100,10 +100,7 @@ p {
 
 
 .wrapper-projects {
-    padding-top: 124px;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-bottom: 124px;
+    padding: 124px 64px;
 }
 
 h2 {
